@@ -1,0 +1,7 @@
+sudo -u postgres psql
+sudo service postgresql stop
+sudo service postgresql start
+sudo systemctl restart postgresql.service
+
+service postgresql status
+
